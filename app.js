@@ -1,9 +1,9 @@
 const ingredients = [
-    { name: "Popcorn", carbs: 80, protein: 10, fats: 10 },
-    { name: "Almonds", carbs: 20, protein: 15, fats: 65 },
-    { name: "Dried Cranberries", carbs: 95, protein: 0, fats: 5 },
-    { name: "Pretzel Sticks", carbs: 88, protein: 10, fats: 2 },
-    { name: "Dark Chocolate Chips", carbs: 50, protein: 5, fats: 45 }
+    { name: "Popcorn", carbs: 8, protein: 10, fats: 10 },
+    { name: "Almonds", carbs: 12, protein: 15, fats: 6 },
+    { name: "Dried Cranberries", carbs: 5, protein: 1, fats: 5 },
+    { name: "Pretzel Sticks", carbs: 10, protein: 3, fats: 2 },
+    { name: "Dark Chocolate Chips", carbs: 7, protein: 4, fats: 13 }
 ];
 
 const selectedIngredients = {};
