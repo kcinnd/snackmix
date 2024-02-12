@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Composition Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="container mx-auto">
+        <h1 class="text-xl font-bold mb-4">Chemical Composition Challenge</h1>
+        <div id="ingredients" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Ingredients will be populated here dynamically -->
+        </div>
+        <div class="mt-6">
+            <h2 class="text-lg font-semibold">Your Mix's Nutritional Profile</h2>
+            <div id="nutritionalChart" class="p-4 bg-white rounded shadow">
+                <!-- Nutritional Chart will be inserted here -->
+            </div>
+        </div>
+        <button id="submitBtn" class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Submit Mix
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
